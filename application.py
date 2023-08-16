@@ -93,7 +93,6 @@ class_list = [
 
 app = Flask(__name__)
 
-app = app()
 target_img = os.path.join(os.getcwd() , 'static/images')
 
 @app.route('/')
@@ -135,4 +134,4 @@ def predict():
 
 
 if __name__ == '__main__':
-    app.run(debug=False,use_reloader=False, port=8000)
+    app.run(host="0.0.0.0")
