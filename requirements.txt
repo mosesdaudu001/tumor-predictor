@@ -1,0 +1,10 @@
+fastapi==0.95.1
+Flask==2.3.2
+numpy==1.24.3
+pandas==2.0.1
+# pydantic==1.10.7
+Requests==2.30.0
+tensorflow==2.13.0
+pillow
+gunicorn
+# setuptools==66.0.0
