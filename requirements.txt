@@ -7,4 +7,5 @@ Requests
 tensorflow
 pillow
 gunicorn
+fcnt1
 # setuptools==66.0.0

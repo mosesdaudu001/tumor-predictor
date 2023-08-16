@@ -1,17 +1,8 @@
-FROM python:3.10.12-slim
+FROM python:3.11.4
 
 RUN pip install -U pip
-# RUN pip install pipenv 
-
-# WORKDIR /app
-
-# COPY [ "Pipfile", "Pipfile.lock", "./" ]
 
 COPY . .
-
-# RUN pipenv install --system --deploy
-
-# COPY [ "predict.py", "lin_reg.bin", "./" ]
 
 RUN pip install -r requirements.txt
 
