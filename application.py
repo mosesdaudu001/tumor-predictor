@@ -92,6 +92,8 @@ class_list = [
 
 
 app = Flask(__name__)
+
+app = app()
 target_img = os.path.join(os.getcwd() , 'static/images')
 
 @app.route('/')
