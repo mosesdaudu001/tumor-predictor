@@ -9,7 +9,6 @@ from tensorflow.keras import regularizers
 import numpy as np
 import os
 
-
 img_size = (224, 224)
 channels = 3
 color_mode = 'rgb'
