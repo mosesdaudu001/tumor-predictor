@@ -1,0 +1,4 @@
+Flask==3.0.0
+numpy==1.26.2
+Requests==2.31.0
+tensorflow==2.15.0.post1
